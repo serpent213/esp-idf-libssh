@@ -4,6 +4,8 @@ This repository contains a port of [libssh](https://www.libssh.org/) to the [Esp
 The libssh code itself lives unmodified in a git submodule, but it is augmented with additional esp-idf header files and component glue.
 Additionally, an embeddable ssh server (sshd) is included as an example esp-idf project.
 
+**Note: This fork is based on CMake's _ExternalProject_ – and does not compile so far...**
+
 # Running the sample project
 
 You need to edit the example project's `main.c` and add your WiFi SSID and password.
